@@ -36,5 +36,3 @@ flutter_deploy_pages:
     - public
   tags:
     - flutter
-  only:
-    - origin
