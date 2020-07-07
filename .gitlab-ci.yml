@@ -1,0 +1,40 @@
+stages:
+  - test
+  - build
+  - deploy
+
+flutter_test:
+  stage: test
+  script:
+    - flutter test
+  tags:
+    - flutter
+
+flutter_build_web:
+  stage: build
+  before_script:
+    - flutter packages get
+    - flutter clean
+  script:
+     - flutter build web
+  artifacts:
+    paths:
+      - build/web
+  tags:
+    - flutter
+
+flutter_deploy_pages:
+  stage: deploy
+  dependencies:
+    - flutter_build_web
+  script:
+    - mkdir .public
+    - cp build/web/* .public
+    - mv .public public
+  artifacts:
+    paths:
+    - public
+  tags:
+    - flutter
+  only:
+    - origin
