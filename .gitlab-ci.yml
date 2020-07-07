@@ -37,4 +37,4 @@ flutter_deploy_pages:
   tags:
     - flutter
   only:
-    - master
+    - origin

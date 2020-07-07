@@ -1,0 +1,4 @@
+[fetch]
+	recurseSubmodules = false
+[http "https://gitlab.com"]
+	sslCAInfo = C:\\Users\\benha\\Documents\\Python\\flutter_portfolio\\builds\\xaf4mDgH\\0\\Maofryy\\flutter_portfolio.tmp\\CI_SERVER_TLS_CA_FILE
