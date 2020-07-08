@@ -1,14 +1,6 @@
 stages:
-  - test
   - build
   - deploy
-
-flutter_test:
-  stage: test
-  script:
-    - flutter test
-  tags:
-    - flutter
 
 flutter_build_web:
   stage: build
