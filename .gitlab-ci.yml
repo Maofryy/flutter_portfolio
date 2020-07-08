@@ -23,7 +23,7 @@ flutter_build_web:
   tags:
     - flutter
 
-flutter_deploy_pages:
+pages:
   stage: deploy
   dependencies:
     - flutter_build_web
