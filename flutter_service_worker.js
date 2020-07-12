@@ -3,28 +3,15 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "95b61cb51057c4da5307bb6d79ad8438",
+  "assets/AssetManifest.json": "6161179ddc6b96655b187e4aecdcfe74",
 "assets/assets/fonts/poppins/Poppins-Bold.ttf": "c23534acbeddbaadfd0ab2d2bbfdfc84",
 "assets/assets/fonts/poppins/Poppins-Italic.ttf": "89c81a3cbc00c32cbe1b28561029be0d",
 "assets/assets/fonts/poppins/Poppins-Regular.ttf": "41e8dead03fb979ecc23b8dfb0fef627",
-"assets/assets/images/AdXd.png": "476769bfa7575005982507bbc51fb4f4",
-"assets/assets/images/Be.png": "f3642abb46f5b71ad14e58579484bfb1",
-"assets/assets/images/Insta.png": "fefda1e91c98e3d2a4f0f543203736d0",
-"assets/assets/images/johndoe.jpg": "65a6ba2c922fda83c0eb6114001718fc",
-"assets/assets/images/johndoe3.png": "ddd508288f1321e2e786f20aa63f981f",
-"assets/assets/images/johndoeToo.png": "ddd508288f1321e2e786f20aa63f981f",
-"assets/assets/images/LinkedIn.png": "aef54d2caa9b41e3496dbe985606dc1c",
-"assets/assets/images/MaoPortrait.jpg": "4855df4f6ed022cab08857d6f88c1702",
-"assets/assets/images/my1.png": "1f3f7646bc0d7b0284dd2818afb03d39",
-"assets/assets/images/my2.jpg": "4a5005f026e6877bcafbe795227694c2",
-"assets/assets/images/my3.jpg": "26d6401d517358892e3372d0c8f1f493",
-"assets/assets/images/my4.jpg": "ca69027af6e71bd291eb97ce2975df9a",
-"assets/assets/images/my5.jpg": "45909930752c61dd08e98dc00647cae7",
-"assets/assets/images/my6.jpg": "2d85622a41d5b770f1719cdfe3f4d427",
-"assets/assets/images/NiceStock.jpg": "8e03dc0f188fa27fdb7c3fb89b0e9bca",
-"assets/assets/images/O3bars.png": "1631fcbcefb8ff97d8451a3be7608c98",
-"assets/assets/images/Pinterest.png": "b1085fdf8ef62facef9c8b2505a6d80e",
-"assets/assets/images/polygonShape.png": "6f4eae462883fc0118f2e4873ea2c256",
+"assets/assets/images/2.0x/WorkingStock.jpg": "bc18b330b3fa15a9326854c2fa31f4c5",
+"assets/assets/images/3.0x/WorkingStock.jpg": "36214a5601a9298d32a78a2833c9077b",
+"assets/assets/images/polygonShape.png": "df3710593803f44fb9c1f566d5da8b19",
+"assets/assets/images/Portrait2.jpg": "1e0e97f07f3995690ca6b8a0b7d45277",
+"assets/assets/images/WorkingStock.jpg": "9e8258b31956b24bad40148d44534066",
 "assets/FontManifest.json": "6502af96dadaab947980ccb34c454aa9",
 "assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
 "assets/NOTICES": "c1ba54336963e55663bb759901446127",
@@ -34,7 +21,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "943bc23ccde70a6c9e3b49bd801a9739",
 "/": "943bc23ccde70a6c9e3b49bd801a9739",
-"main.dart.js": "c04ea7b2e3392c1668b2419a3ff5881b",
+"main.dart.js": "3830b3efc2741e533d5dbeebd68f90fe",
 "manifest.json": "0ebaa19c831ae290dfd23fed3db9fffd"
 };
 
